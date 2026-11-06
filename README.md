@@ -1,12 +1,23 @@
-# Asphyxia Core (Fork)
+# ALTeR-musement
+ALTeR-musement (ALTm) is a private server for all your Bemani things (currently support only SDVX, but also planning to add more games)
 
-A fork of [asphyxia-core](https://github.com/asphyxia-core/core) with additional features.
+Based on RyuNET, which is based on Asphyxia CORE. This fork aims to remove all RyuNET brandings and making itself an independent private server that is not bound by the former's rules.
 
-Some of the core changes were made specifically to support a forked SDVX plugin. The plugin is maintained in a separate repository: [Ryu7w7/asphyxia_plugins](https://github.com/Ryu7w7/asphyxia_plugins), which is itself a fork of [22vv0's plugin](https://github.com/22vv0/asphyxia_plugins).
+## Connect
+Inside spicecfg, open Options and look for "EA Service URL". Paste this: 
 
-> [!IMPORTANT]
-> This fork uses **SQLite** as its database backend instead of NeDB. If you are upgrading from an older version of this core (or from upstream Asphyxia), you **must** run the migration script before starting the server. See [Migrating from NeDB](#migrating-from-nedb) below.
+` http://connect.ascendance.qzz.io/service/init `
 
+Register an account at ` eamu.ascendance.qzz.io `. Go to Cabinets, then add new cabinet. Paste the generated cabinet ID into the "PCBID" section.
+
+Open the game, then add a card. Play a credit (or you can just turn on Free Play), then connect the card to the account.
+
+## Rules
+- Nothing. Just play fair and no cheating. You can even upload the footage/score from the network to public (just don't tell anyone how to connect to the network; let them go here and do themself).
+
+
+# Below is for self-hosting only.
+Will be replaced with a more modern guide later.
 ## Requirements
 
 - **Node.js >= 22.5** (required for the built-in `node:sqlite` module)
