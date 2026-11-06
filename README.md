@@ -1,3 +1,5 @@
+This project runs on a free Oracle VPS and might crash if too many users log in at the same time. Hopefully I can manage to move to a cheap VPS soon.
+
 # ALTeR-musement
 ALTeR-musement (ALTm) is a private server for all your Bemani things (currently support only SDVX, but also planning to add more games)
 
